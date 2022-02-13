@@ -1,0 +1,14 @@
+Vertex:Nodes
+Edges: connecting lines
+graph has two traversal
+    -> DFS(depth First Search) using recurssion
+        -> preOrder
+        -> PostOrder ()
+        -> topological Sort is nothing but postOrder Traversal 
+            but we can only apply with directed Acyclic graph 
+
+    ->BFS(Breadth First Search) using Queue
+        -> we need to maintain Visited set
+
+https://www.youtube.com/watch?v=tWVWeAqZ0WU
+https://www.youtube.com/watch?v=uDWljP2PGmU&list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw&index=7

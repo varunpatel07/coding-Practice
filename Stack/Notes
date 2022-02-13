@@ -1,0 +1,1 @@
+if during the nested loop we see that iteration of j is dependent on i then we try to use stack
