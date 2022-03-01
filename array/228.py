@@ -24,7 +24,6 @@ class Solution:
             while(win<len(nums) and nums[win] == nums[win-1] + 1):
                 end = win
                 win += 1
-
             if(win==start+1):
                 ans.append(f"{nums[start]}")
                 start = start+1
@@ -33,8 +32,6 @@ class Solution:
                 start = win
             end = start
         return ans
-
-        pass
 
 obj = Solution()
 print(obj.summaryRanges([0,1,2,4,5,7]))
