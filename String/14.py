@@ -29,4 +29,3 @@ print(obj.longestCommonPrefix(["dog","racecar","car"]))
 print(obj.longestCommonPrefix(["a","ab"]))
 #print(obj.longestCommonPrefix([]))
 a = ["flower","flow","flight"]
-print(a[1].indexOf(a[0]) )
