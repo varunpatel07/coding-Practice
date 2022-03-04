@@ -25,7 +25,7 @@ class Solution:
                     arr[i+1][j] += remain/2
                     arr[i+1][j+1] += remain/2
                 j+=1
-        return round(float(arr[query_row][query_glass]),6)
+        return float(arr[query_row][query_glass])
         
         pass
 
