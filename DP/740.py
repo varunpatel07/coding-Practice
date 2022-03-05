@@ -21,4 +21,4 @@ class Solution:
 
         pass
 obj = Solution()
-print(obj.deleteAndEarn([3,4,2]))
+print(obj.deleteAndEarn([1,1,2,2,3,3,4,4,4,5]))
