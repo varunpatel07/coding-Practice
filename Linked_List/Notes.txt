@@ -1,0 +1,1 @@
+If we use a dummy head then it is know as sentinal approach

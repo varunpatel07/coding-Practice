@@ -6,7 +6,7 @@ class Graph:
         self.graph = {}
     def addEdge(self,src,dest):
         if(src not in self.graph):
-            self.graph[src] = []
+            self.graph[src] = []    
         self.graph[src].append(dest)
     def BFS(self,strt):
 
