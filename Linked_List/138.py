@@ -11,7 +11,7 @@ class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
         if(head==None):
             return None
-        #to store all the ne copies of list
+        #to store all the new copies of list as <oldNode>:<NewNode>
         store = {}
         
         oldCurr = head
@@ -19,13 +19,14 @@ class Solution:
         store[head] = newHead
         oldCurr =  oldCurr.next
         newCurr = newHead
-        
+        #this loop will make new copies for each node and will populate next pointer on those nodes
         while(oldCurr):
             newCurr.next = Node(oldCurr.val)
             store[oldCurr] = newCurr.next
             oldCurr = oldCurr.next
             newCurr = newCurr.next
         
+        #this loop will populate random pointer taking refrence from store which will bw used to store data
         oldCurr = head
         newCurr = newHead
         while(oldCurr):
