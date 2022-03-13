@@ -22,7 +22,6 @@ class Graph:
     def findMother(self):
         for node in self.graph:
             if(self.dfs(node,set())):
-    
                 return node
         pass
 
