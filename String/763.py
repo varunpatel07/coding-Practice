@@ -21,11 +21,7 @@ class Solution:
                 result.append(partSize)
                 partSize = 0
         return result
-                
 
-
-
-        pass
 
 
 obj = Solution()
