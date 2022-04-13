@@ -11,7 +11,7 @@ Input: people = [3,5,3,4], limit = 5
 Output: 4
 Explanation: 4 boats (3), (3), (4), (5)
 """
-
+import
 class Solution:
     def numRescueBoats(self, people, limit: int) -> int:
         people.sort()
